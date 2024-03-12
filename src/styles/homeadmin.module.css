@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .managedata {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .data {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  .data:hover{
+    background-color: #333;
+    color: #f2f2f2;
+  }
+  
+  .hover {
+    background-color: #e6e6e6;
+  }
+  
+  .active {
+    background-color: #ccc;
+  }

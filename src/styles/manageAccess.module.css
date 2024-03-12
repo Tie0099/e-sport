@@ -1,0 +1,422 @@
+
+.headerBlue, .headerGreen {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    margin-left: 20px;
+  }
+  
+  /* AdminHome.module.css */
+  
+  .headerBlue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* ต้องเพิ่มขนาดของ shadow ในรูปแบบ rgba */
+  }
+  
+  .adminInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoutLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .adminIcons {
+    margin-right: 11px;
+  }
+  
+  .adminIcon {
+    margin-right: 5px;
+  }
+  
+  .adminText {
+    text-align: center;
+    margin-right: 5px;
+  }
+  
+  .logoutLink {
+    background-color: rgb(0, 4, 50);
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .homeLink {
+    align-self: flex-start;
+    margin-left: 20px;
+  }
+  
+  .homeText {
+    color: #101E3A;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px 0;
+  }
+  
+  
+  .dashboardBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101E3A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    gap: 1px;
+  }
+  
+  .userListHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #2f2626; /* ปรับขนาดของขอบล่าง */
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่าง */
+  }
+  
+  
+  .userListHeader > span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .dashboardIcon {
+    margin-bottom: 10px;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;  
+    min-height: 100vh;
+    background-color: rgb(251, 250, 252);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .addIcon {
+    background-color: #00BFA6;
+    box-sizing: border-box;
+    margin-left: 86.7%;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #00BFA6;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    overflow: hidden;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1;
+    
+}
+
+.addIcon:hover {
+  transition: .4s;
+  background-color: #fff;
+  color: #00BFA6;
+   
+}
+
+  .userForm {
+    margin: 20px;
+    padding: 20px; /* เพิ่ม padding เพื่อให้มีขอบ */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .addButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    display: inline-block;
+  }
+  
+  .cancelButton {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    display: inline-block;
+    margin-top: -36px; /* ปรับให้ไม่มีระยะห่างด้านบน */
+    margin-left: auto; /* จัดตำแหน่งของปุ่มยกเลิก */
+}
+
+
+.cancelButton {
+  background-color: red;
+  color: white;
+}
+
+.cancelButton:hover {
+  background-color: rgb(133, 6, 6);
+}
+.addButton {
+    background-color: rgb(4, 133, 4);
+    color: white;
+  }
+  
+  .addButton:hover {
+    background-color: rgb(3, 105, 3);
+  }
+  
+  
+  .formButtons {
+    text-align: center;
+  }
+  
+  .userList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+  
+  .userBlock {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.2);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    margin: 1px;
+  }
+  
+  .editIcon {
+    background: #ffec43;
+    color: #090909;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+  }
+  
+  .editIcon:hover {
+    background-color: #fff;
+    color: #ffec43;
+  }
+  
+  .deleteIcon {
+    background: #ff3e3e;
+    color: #090909;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+  }
+  
+  .deleteIcon:hover {
+    background-color:#ffffff ;
+    color: #ff3e3e;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    z-index: 1001;
+  }
+  
+  .modalCloseButton {
+    float: right;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: -10px -10px 10px 0;
+  }
+  
+  .userTable {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100% ;
+    table-layout: fixed;
+    margin: 0 ;
+    background: #ffd9c9;
+    padding: 10px;
+    color: #090909;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .h1 {
+    text-align: center;
+  }
+  
+  .h2 {
+    text-align: center;
+    margin: 10px 0 30px;
+  }
+  
+  .userRow {
+    background-color: #ffffff;
+    height: 50px;
+    
+  }
+  
+  .dataadmin {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 7px;
+  }
+  
+  .search {
+    margin-top: 30px;
+  }
+  
+  .searchInput {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 20%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-left: 80%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+    border-color: #9a8ca3;
+  }
+  /* switch */
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .toggle-switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .toggle-switch-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px #ccc;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .toggle-switch-handle {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .toggle-switch::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    right: -35px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #aaa;
+    text-shadow: 1px 1px #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .toggle-switch input[type="checkbox"]:checked + .toggle-switch-handle {
+    transform: translateX(45px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 0 3px #05c46b;
+  }
+  
+  .toggle-switch input[type="checkbox"]:checked + .toggle-switch-background {
+    background-color: #05c46b;
+    box-shadow: inset 0 0 0 2px #04b360;
+  }
+  
+  .toggle-switch input[type="checkbox"]:checked + .toggle-switch:before {
+    content: "On";
+    color: #05c46b;
+    right: -15px;
+  }
+  
+  .toggle-switch input[type="checkbox"]:checked + .toggle-switch-background .toggle-switch-handle {
+    transform: translateX(40px);
+  }
+  /* ยืนยันการลบ */
+.confirmButtons{
+  /* margin-top: 40px; */
+  padding: 30px 0 20px 0;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.confirmdelete{
+  background-color:#ff3e3e ;
+  color: white;
+}
+.confirmdelete:hover{
+  color: #ff3e3e;
+  background-color: #ffffff;
+}
+  

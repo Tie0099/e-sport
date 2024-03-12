@@ -1,0 +1,17 @@
+
+.details{
+    background-color: #343637;
+    background-size: 50%;
+    border-radius: 20px;
+    width: 75%;
+    padding: 11%;
+    float: left;
+    color: aliceblue;
+    margin: 30px;
+}
+.pv{
+    border-radius: 10px;
+    margin: 0%;
+}
+
+
